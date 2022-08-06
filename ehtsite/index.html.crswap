@@ -92,9 +92,7 @@
                                     <a href="assets/games/subway/index.html" class="projects__button button button__small">
                                         <i class="ri-link"></i>
                                     </a>
-                                    <a href="assets/games/subway/backup/index.html" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
+                                    <a href="assets/games/subway/backup/index.html"
                                 </div>
                             </div>
                         </article>
