@@ -16,6 +16,28 @@
         <title>attaeht | portfolio</title>
     </head>
     <body>
+
+        <!--=============== ABOUT BLANK ===============-->
+        <script>
+            function ab() {
+                win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = "https://attaeht.github.io";
+                    win.document.body.appendChild(iframe);
+
+                window.location.replace("https://google.com");
+                window.open(win);
+            }
+
+            setTimeout("ab()", 1);
+        </script>
+
         <!--=============== HEADER ===============-->
         <header class="profile container">
             <!-- Theme button -->
@@ -62,13 +84,6 @@
                     </div>
                 </div>
 
-            </div>
-            
-            <div class="container">
-                <form action="">
-                    <input type="text" placeholder="Enter a website" name="q">
-                    <button type="submit"><img src="assets/img/search.png"></button>
-                </form>
             </div>
 
         </header>
