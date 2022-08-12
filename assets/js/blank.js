@@ -50,10 +50,12 @@ else {
 
 //alert
 function promptalert() {
-    $('<div>').mdialog({
-        closeButton: 'right',
-        content: 
-          "<div data-role='header'><h1>Antigonish</h1></div><div data-role='content'><p>Yesterday, upon the stair,<br />I met a man who wasn't there<br />He wasn't there again today<br />I wish, I wish he'd go away...</p></div>"
-      });
+    if (confirm("Do you want to open this website in an about:blank page? \ Press ok to open website in a blank tab! \ Press Cancel to continue to normal website!")) {
+        txt = "You pressed OK!";
+        blank();
+    }
+    else {
+        txt = "You pressed Cancel!";
+    }
     console.log(txt);
 }
