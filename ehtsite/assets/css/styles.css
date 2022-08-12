@@ -44,6 +44,8 @@
   }
 }
 
+
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -138,6 +140,11 @@ body.dark-theme {
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.scontainer {
+  width: 100%;
+  
 }
 
 /*=============== PROFILE ===============*/
